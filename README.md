@@ -23,28 +23,28 @@ Aquest article té llicència [Creative Commons Attribution-NonCommercial 4.0 In
 * [Les dades en blanc es reemplacen per zeros](#les-dades-en-blanc-es-reemplacen-per-zeros)
 * [Manquen dades que hi haurien de ser](#manquen-dades-que-hi-haurien-de-ser)
 * [Files o valors duplicats](#files-o-valors-duplicats)
-* [La ortografia és inconsistent](#la-ortografia-es-inconsistent)
-* [L'ordre de les paraules és inconsistent](#l-ordre-de-les-paraules-es-inconsistent)
+* [La ortografia és inconsistent](#la-ortografia-és-inconsistent)
+* [L'ordre de les paraules és inconsistent](#l-ordre-de-les-paraules-és-inconsistent)
 * [Formats de dates inconsistents](#formats-de-dates-inconsistents)
-* [Els formats dels decimals són inconsistents](#els-formats-dels-decimals-son-inconsistents)
+* [Els formats dels decimals són inconsistents](#els-formats-dels-decimals-són-inconsistents)
 * [No s'especifiquen les unitats](#no-s-especifiquen-les-unitats)
-* [Els símbols monetaris són insuficients](#els-simbols-monetaris-son-insuficients)
+* [Els símbols monetaris són insuficients](#els-símbols-monetaris-son-insuficients)
 * [Les categories han estat mal seleccionades](#les-categories-han-estat-mal-seleccionades)
-* [Els noms dels camps són ambigus](#els-noms-dels-camps-son-ambigus)
-* [L'origen de les dades no està documentat](#l-origen-de-les-dades-no-esta-documentat)
+* [Els noms dels camps són ambigus](#els-noms-dels-camps-són-ambigus)
+* [L'origen de les dades no està documentat](#l-origen-de-les-dades-no-està-documentat)
 * [Valors sospitosos](#valors-sospitosos)
-* [Les dades són massa bastes](#les-dades-son-massa-bastes)
+* [Les dades són massa bastes](#les-dades-són-massa-bastes)
 * [Els totals difereixen dels globals publicats](#els-totals-difereixen-dels-globals-publicats)
-* [El full de càlcul té 65.536 files](#el-full-de-calcul-te-65.536-files)
-* [El full de càlcul té 255 columnes](#el-full-de-calcul-te-255-columnes)
-* [El full de càlcul té les dates 1900, 1904, 1969 o 1970](#el-full-de-calcul-te-les-dates-1900-1904-1969-o-1970)
+* [El full de càlcul té 65.536 files](#el-full-de-càlcul-té-65.536-files)
+* [El full de càlcul té 255 columnes](#el-full-de-càlcul-té-255-columnes)
+* [El full de càlcul té les dates 1900, 1904, 1969 o 1970](#el-full-de-càlcul-té-les-dates-1900-1904-1969-o-1970)
 * [El text s'ha convertit en nombres](#el-text-s-ha-convertit-en-nombres)
 * [Nombres que s'han desat com a text](#nombres-que-s-han-desat-com-a-text)
 
 ## Aspectes que tu pots resoldre
 
-* [El text està codificat](#el-text-esta-codificat)
-* [Els espais al final de la línia estan mal codificats](#els-espais-al-final-de-la-linia-estan-mal-codificats)
+* [El text està codificat](#el-text-està-codificat)
+* [Els espais al final de la línia estan mal codificats](#els-espais-al-final-de-la-línia-estan-mal-codificats)
 * [Les dades estan en PDF](#les-dades-estan-en-PDF)
 * [Les dades són massa granualrs](#les-dades-son-massa-granulars)
 * [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduides-per-humans)
@@ -70,7 +70,6 @@ Aquest article té llicència [Creative Commons Attribution-NonCommercial 4.0 In
 * [Hi ha p-hacking als resultats](#hi-ha-p-hacking-als-resultats)
 * [La llei de Benford falla](#la-llei-de-benford-falla)
 * [És massa bonic per ser veritat](#es-massa-bonic-per-ser-veritat)
-* [Too good to be true](#too-good-to-be-true)
 
 ## Problemes que un programador pot ajudar a resoldre
 
@@ -357,7 +356,7 @@ See also:
 
 ### Es desconeix el marge d'error
 
-De vegades el problema no és que el marge d'error sigui [massa gran] (#margin-of-error-is-too-large), sinó que ningú s’hagi molestat a comprovar-ho. Aquest és un problema amb les enquestes no científiques. Sense calcular un MOE, és impossible saber amb exactitud la fiabilitat dels resultats. Com a regla general, sempre que tinguis dades d'enquestes hauries de preguntar quin és el seu MOE. Si la font no t'ho pot dir, probablement les dades no siguin vàlides per utilitzar-les una anàlisi seriosa.
+De vegades el problema no és que el marge d'error sigui [massa gran](#el-marge-d-error-es-massa-ampli), sinó que ningú s’hagi molestat a comprovar-ho. Aquest és un problema amb les enquestes no científiques. Sense calcular un MOE, és impossible saber amb exactitud la fiabilitat dels resultats. Com a regla general, sempre que tinguis dades d'enquestes hauries de preguntar quin és el seu MOE. Si la font no t'ho pot dir, probablement les dades no siguin vàlides per utilitzar-les una anàlisi seriosa.
 
 Veure també
 
