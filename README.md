@@ -8,7 +8,7 @@ La majoria d'aquests problemes tenen solució. Dels que no, podem distingir entr
 
 No es pot revisar cada dataset buscant tots aquests problemes. I si es fes, possiblement s'acabaria sense publicar res. Tot i així, familiaritzant-se amb aquestes incidències es tenen més opcions d'identificar els problemes abans de comentre un error. 
 
-Per dubtes relacionats amb la guia, contacteu amb l'autor [Chris](mailto:c@qz.com) o llegiu [l'original] (https://github.com/Quartz/bad-data-guide)
+Per dubtes relacionats amb la guia, contacteu amb l'autor [Chris](mailto:c@qz.com) o llegiu [l'original](https://github.com/Quartz/bad-data-guide)
 Per dubtes o comentaris relacionats amb la traducció, contacteu amb [Pilar](mailto:campospil@gmail.com). S'ha treballat amb la versió del github de 09/11/2017.
 Correcció de la traducció per [Proofeditingasesores](http://www.proofeditingasesores.com/)
 
@@ -20,7 +20,7 @@ Aquest article té llicència [Creative Commons Attribution-NonCommercial 4.0 In
 ## Aspectes que hauria de resoldre la font d'informació
 
 * [Falten dades](#falten-dades)
-* [Les dades en blanc es reemplacen per zeros](#les-dades-en-blanc-es-reemplacen-per-zeros)
+* [Les dades en blanc es reemplacen per ](#les-dades-en-blanc-es-reemplacen-per-zeros)
 * [Manquen dades que hi haurien de ser](#manquen-dades-que-hi-haurien-de-ser)
 * [Files o valors duplicats](#files-o-valors-duplicats)
 * [La ortografia és inconsistent](#la-ortografia-és-inconsistent)
@@ -45,7 +45,7 @@ Aquest article té llicència [Creative Commons Attribution-NonCommercial 4.0 In
 
 * [El text està codificat](#el-text-està-codificat)
 * [Els espais al final de la línia estan mal codificats](#els-espais-al-final-de-la-línia-estan-mal-codificats)
-* [Les dades estan en PDF](#les-dades-estan-en-PDF)
+* [Les dades estan en PDF](#les-dades-estan-en-pdf)
 * [Les dades són massa granualrs](#les-dades-són-massa-granulars)
 * [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduïdes-per-humans)
 * [Les dades estan barrejades amb formats i anotacions](#les-dades-estan-barrejades-amb-formats-i-anotacions)
@@ -331,7 +331,7 @@ Aquest és un error que pots cometre en la teva anàlisi, però també es un err
 See also:
 
 * [Manquen dades que hi haurien de ser](#manquen-dades-que-hi-haurien-de-ser)
-* [Zeros replace missing values](#zeros-replace-missing-values)
+* [Les dades en blanc es reemplacen per zeros](#les-dades-en-blanc-es-reemplacen-per-zeros)
 
 
 ### La mostra no és aleatòria
@@ -356,11 +356,11 @@ See also:
 
 ### Es desconeix el marge d'error
 
-De vegades el problema no és que el marge d'error sigui [massa gran](#el-marge-d-error-es-massa-ampli), sinó que ningú s’hagi molestat a comprovar-ho. Aquest és un problema amb les enquestes no científiques. Sense calcular un MOE, és impossible saber amb exactitud la fiabilitat dels resultats. Com a regla general, sempre que tinguis dades d'enquestes hauries de preguntar quin és el seu MOE. Si la font no t'ho pot dir, probablement les dades no siguin vàlides per utilitzar-les una anàlisi seriosa.
+De vegades el problema no és que el marge d'error sigui [massa gran](#el-marge-d-error-és-massa-ampli), sinó que ningú s’hagi molestat a comprovar-ho. Aquest és un problema amb les enquestes no científiques. Sense calcular un MOE, és impossible saber amb exactitud la fiabilitat dels resultats. Com a regla general, sempre que tinguis dades d'enquestes hauries de preguntar quin és el seu MOE. Si la font no t'ho pot dir, probablement les dades no siguin vàlides per utilitzar-les una anàlisi seriosa.
 
 Veure també
 
-* [El marge d'error és massa ampli](#el-marge-d-error-es-massa-ampli)
+* [El marge d'error és massa ampli](#el-marge-d-error-és-massa-ampli)
 
 
 ### La mostra està esbiaixada
@@ -511,5 +511,5 @@ Hi ha webs on es pot pujar un document per passar l'OCR, però també es poden t
 
 Veure també
 
-* [Les dades estan en PDF](#les-dades-estan-en-PDF)
+* [Les dades estan en PDF](#les-dades-estan-en-pdf)
 
