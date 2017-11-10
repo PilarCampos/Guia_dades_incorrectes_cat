@@ -63,9 +63,9 @@ Aquest article té llicència [Creative Commons Attribution-NonCommercial 4.0 In
 ## Problemes que requereixen de l'ajuda d'un expert per resoldre'ls
 
 * [L'autor no és de confiança](#l-autor-no-és-de-confiança)
-* [El procés de captura és opac](#el-proces-de-captura-es-opac)
-* [Les dades són d'una precisió irreal](#les-dades-són-d-una-precisio-irreal)
-* [Hi ha valors atípics inexplicables](#hi-ha-valors-atipics-inexplicables)
+* [El procés de captura és opac](#el-proces-de-captura-és-opac)
+* [Les dades són d'una precisió irreal](#les-dades-són-d-una-precisió-irreal)
+* [Hi ha valors atípics inexplicables](#hi-ha-valors-atípics-inexplicables)
 * [Un índex emmascara variacions subjacents](#un-índex-emmascara-variacions-subjacents)
 * [Hi ha p-hacking als resultats](#hi-ha-p-hacking-als-resultats)
 * [La llei de Benford falla](#la-llei-de-benford-falla)
@@ -73,7 +73,7 @@ Aquest article té llicència [Creative Commons Attribution-NonCommercial 4.0 In
 
 ## Problemes que un programador pot ajudar a resoldre
 
-* [Les dades s'han agrupat en categories o geografies errònies](#les-dades-s-han-agrupat-en-categories-o-geografies-errònies)
+* [Les dades s'han agrupat en categories o geografies errònies](#les-dades-shan-agrupat-en-categories-o-geografies-errònies)
 * [Les dades es troben en documents escanejats](#les-dades-es-troben-en-documents-escanejats)
 
 
