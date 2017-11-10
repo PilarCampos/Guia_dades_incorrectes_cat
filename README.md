@@ -24,22 +24,22 @@ Aquest article té llicència [Creative Commons Attribution-NonCommercial 4.0 In
 * [Manquen dades que hi haurien de ser](#manquen-dades-que-hi-haurien-de-ser)
 * [Files o valors duplicats](#files-o-valors-duplicats)
 * [La ortografia és inconsistent](#la-ortografia-és-inconsistent)
-* [L'ordre de les paraules és inconsistent](#l-ordre-de-les-paraules-és-inconsistent)
+* [L'ordre de les paraules és inconsistent](#lordre-de-les-paraules-és-inconsistent)
 * [Formats de dates inconsistents](#formats-de-dates-inconsistents)
 * [Els formats dels decimals són inconsistents](#els-formats-dels-decimals-són-inconsistents)
-* [No s'especifiquen les unitats](#no-s-especifiquen-les-unitats)
-* [Els símbols monetaris són insuficients](#els-símbols-monetaris-son-insuficients)
+* [No s'especifiquen les unitats](#no-sespecifiquen-les-unitats)
+* [Els símbols monetaris són insuficients](#els-símbols-monetaris-són-insuficients)
 * [Les categories han estat mal seleccionades](#les-categories-han-estat-mal-seleccionades)
 * [Els noms dels camps són ambigus](#els-noms-dels-camps-són-ambigus)
-* [L'origen de les dades no està documentat](#l-origen-de-les-dades-no-està-documentat)
+* [L'origen de les dades no està documentat](#lorigen-de-les-dades-no-està-documentat)
 * [Valors sospitosos](#valors-sospitosos)
 * [Les dades són massa bastes](#les-dades-són-massa-bastes)
 * [Els totals difereixen dels globals publicats](#els-totals-difereixen-dels-globals-publicats)
-* [El full de càlcul té 65.536 files](#el-full-de-càlcul-té-65.536-files)
+* [El full de càlcul té 65.536 files](#el-full-de-càlcul-té-65536-files)
 * [El full de càlcul té 255 columnes](#el-full-de-càlcul-té-255-columnes)
 * [El full de càlcul té les dates 1900, 1904, 1969 o 1970](#el-full-de-càlcul-té-les-dates-1900-1904-1969-o-1970)
-* [El text s'ha convertit en nombres](#el-text-s-ha-convertit-en-nombres)
-* [Nombres que s'han desat com a text](#nombres-que-s-han-desat-com-a-text)
+* [El text s'ha convertit en nombres](#el-text-sha-convertit-en-nombres)
+* [Nombres que s'han desat com a text](#nombres-que-shan-desat-com-a-text)
 
 ## Aspectes que tu pots resoldre
 
@@ -50,11 +50,11 @@ Aquest article té llicència [Creative Commons Attribution-NonCommercial 4.0 In
 * [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduïdes-per-humans)
 * [Les dades estan barrejades amb formats i anotacions](#les-dades-estan-barrejades-amb-formats-i-anotacions)
 * [Les agregacions es calculen amb valors que falten](#les-agregacions-es-calculen-amb-valors-que-falten)
-* [La mostra no és aleatòria](#la-mostra-no-es-aleatòria)
-* [El marge d'error és massa ampli](#el-marge-d-error-és-massa-ampli)
-* [Es desconeix el marge d'error](#es-desconeix-el-marge-d-error)
+* [La mostra no és aleatòria](#la-mostra-no-és-aleatòria)
+* [El marge d'error és massa ampli](#el-marge-derror-és-massa-ampli)
+* [Es desconeix el marge d'error](#es-desconeix-el-marge-derror)
 * [La mostra està esbiaixada](#la-mostra-està-esbiaixada)
-* [Les dades s'han editat manualment](#les-dades-s-han-editat-manualment)
+* [Les dades s'han editat manualment](#les-dades-shan-editat-manualment)
 * [La inflació distorsiona les dades](#la-inflació-distorsiona-les-dades)
 * [Variacions naturals/de temporada distorsionen dades](#variacions-naturalsde-temporada-distorsionen-les-dades)
 * [El marc temporal ha estat manipulat](#el-marc-temporal-ha-estat-manipulat)
@@ -62,9 +62,9 @@ Aquest article té llicència [Creative Commons Attribution-NonCommercial 4.0 In
 
 ## Problemes que requereixen de l'ajuda d'un expert per resoldre'ls
 
-* [L'autor no és de confiança](#l-autor-no-és-de-confiança)
-* [El procés de captura és opac](#el-proces-de-captura-és-opac)
-* [Les dades són d'una precisió irreal](#les-dades-són-d-una-precisió-irreal)
+* [L'autor no és de confiança](#lautor-no-és-de-confiança)
+* [El procés de captura és opac](#el-procés-de-captura-és-opac)
+* [Les dades són d'una precisió irreal](#les-dades-són-duna-precisió-irreal)
 * [Hi ha valors atípics inexplicables](#hi-ha-valors-atípics-inexplicables)
 * [Un índex emmascara variacions subjacents](#un-índex-emmascara-variacions-subjacents)
 * [Hi ha p-hacking als resultats](#hi-ha-p-hacking-als-resultats)
@@ -111,11 +111,11 @@ Si una mateixa fila apareix al teu dataset més d'una vegada, hauries de saber e
 
 Els errors tipogràfics són un dels indicadors més clars per saber si les dades s'han recollit a mà. No et fixis només en els noms propis, que és un dels camps més difícils de veure. En lloc d’això, cerca inconsistències en els camps amb noms d'estats o ciutats («Los Angelos» és un error comú). Si trobes aquesta mena d’errades, pots estar bastant segur que les dades han sigut recollides o editades a mà i aquesta és una raó suficient per ser escèptics. Les dades recollides manualment tendeixen a contenir errors. Això no significa que no les puguis utilitzar però sí que hauries de corregir-los o tenir-los en compte com a errors en el teu article.
 
-L'eina [OpenRefine's](http://openrefine.org/)  per [agrupar textos](https://github.com/OpenRefine/OpenRefine/wiki/Clustering) pot ajudar en el procés de correcció, suggerint coincidències entre valors inconsistents en una columna (per exemple relacionant `Los Angelos` amb `Los Angeles`).  Assegura't de documentar [documentar els canvis que facis](https://github.com/OpenRefine/OpenRefine/wiki/Exporters) de manera que puguis garantir [l'origen de les dades](#l-origen-de-les-dades-no-està-documentat)
+L'eina [OpenRefine's](http://openrefine.org/)  per [agrupar textos](https://github.com/OpenRefine/OpenRefine/wiki/Clustering) pot ajudar en el procés de correcció, suggerint coincidències entre valors inconsistents en una columna (per exemple relacionant `Los Angelos` amb `Los Angeles`).  Assegura't de documentar [documentar els canvis que facis](https://github.com/OpenRefine/OpenRefine/wiki/Exporters) de manera que puguis garantir [l'origen de les dades](#lorigen-de-les-dades-no-està-documentat)
 
 Veure també:
 
-* [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduides-per-humans)
+* [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduïdes-per-humans)
 
 
 ### L'ordre de les paraules és inconsistent
@@ -139,7 +139,7 @@ Si la primera va ser escrita per un europeu i la segona per un nord-americà, [a
 Veure també:
 
 * [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduïdes-per-humans)
-* [L'origen de les dades no està documentat](#l-origen-de-les-dades-no-està-documentat)
+* [L'origen de les dades no està documentat](#lorigen-de-les-dades-no-està-documentat)
 
 
 ### Els formats dels decimals són inconsistents
@@ -190,7 +190,7 @@ Les enquestes, per exemple, difícilment seran exhaustives. Els sensors difereix
 
 Veure també
 
-* [No s'especifiquen les unitats](#no-s-especifiquen-les-unitats)
+* [No s'especifiquen les unitats](#no-sespecifiquen-les-unitats)
 
 
 ### Valors sospitosos
@@ -240,7 +240,7 @@ El que no has de fer mai és dividir una dada anual entre 12 i anomenar-la «mit
 Veure també:
 
 * [Les dades són massa granuals](#les-dades-són-massa-granuals)
-* [Les dades s'han agrupat en categories o geografies errònies](#les-dades-s-han-agrupat-en-categories-o-geografies-errònies)
+* [Les dades s'han agrupat en categories o geografies errònies](#les-dades-shan-agrupat-en-categories-o-geografies-errònies)
 
 
 ### Els totals difereixen dels globals publicats
@@ -304,13 +304,13 @@ Veure també
 
 ### Les dades són massa granulars
 
-És el cas oposat a tenir les [dades massa bastes](#les-dades-son-massa-bastes). És a dir, tens municipis i vols estats, o tens mesos però vols anys. Per sort, això és molt més fàcil de resoldre.
+És el cas oposat a tenir les [dades massa bastes](#les-dades-són-massa-bastes). És a dir, tens municipis i vols estats, o tens mesos però vols anys. Per sort, això és molt més fàcil de resoldre.
 
 Les dades poden agregar-se utilitzant taules dinàmiques d'Excel o Google Docs, utilitzant una base de dades SQL o amb un codi personalitzat. Les taules dinàmiques són una gran eina, però tenen els seus límits. Per a volums excepcionalment grans o per agregar dades en grups inusuals, hauries de preguntar a un programador, ells poden trobar una solució que sigui senzilla i fàcil de verificar i reutilitzar.
 
 Veure també 
 * [Les dades són massa bastes](#les-dades-són-massa-bastes)
-* [Data are aggregated to the wrong categories or geographies](#data-are-aggregated-to-the-wrong-categories-or-geographies).
+* [Les dades s'han agrupat en categories o geografies errònies](#les-dades-shan-agrupat-en-categories-o-geografies-errònies)
 
 
 ### Les dades han sigut introduïdes per humans
@@ -351,7 +351,7 @@ Els dos primers nombres es poden publicar amb seguretat. El tercer nombre mai s�
 
 See also:
 
-* [Es desconeix el marge d'error](#es-desconeix-el-marge-d-error)
+* [Es desconeix el marge d'error](#es-desconeix-el-marge-derror)
 
 
 ### Es desconeix el marge d'error
@@ -360,16 +360,16 @@ De vegades el problema no és que el marge d'error sigui [massa gran](#el-marge-
 
 Veure també
 
-* [El marge d'error és massa ampli](#el-marge-d-error-és-massa-ampli)
+* [El marge d'error és massa ampli](#el-marge-derror-és-massa-ampli)
 
 
 ### La mostra està esbiaixada
 
-Com quan la mostra [no es aleatòria](#(#la-mostra-no-es-aleatoria), una mostra esbiaixada és el resultat de la falta de cura en la realització del mostreig, tot i que també es pot donar el cas que sigui enganyosa intencionadament. Una mostra pot estar esbiaixada perquè es va realitzar via Internet i hi ha una part desfavorida de la població que no hi té accés de manera tan freqüent. Les enquestes han de poder de cobrir segments proporcionats de qualsevol població que pugui esbiaixar els resultats. És casi impossible fer-ho a la perfecció, de manera que se sol fer malament.
+Com quan la mostra [no es aleatòria](#la-mostra-no-és-aleatòria), una mostra esbiaixada és el resultat de la falta de cura en la realització del mostreig, tot i que també es pot donar el cas que sigui enganyosa intencionadament. Una mostra pot estar esbiaixada perquè es va realitzar via Internet i hi ha una part desfavorida de la població que no hi té accés de manera tan freqüent. Les enquestes han de poder de cobrir segments proporcionats de qualsevol població que pugui esbiaixar els resultats. És casi impossible fer-ho a la perfecció, de manera que se sol fer malament.
 
 Veure també:
 
-* [La mostra no és aleatòria](la-mostra-no-és-aleatoria)
+* [La mostra no és aleatòria](#la-mostra-no-és-aleatoria)
 
 
 ### Les dades s'han editat manualment
@@ -382,7 +382,7 @@ Aquests problemes amb l’edició manual és una de les raons per les quals haur
 Veure també:
 
 * [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduïdes-per-humans)
-* [L'origen de les dades no està documentat](#l-origen-de-les-dades-no-està-documentat)
+* [L'origen de les dades no està documentat](#lorigen-de-les-dades-no-està-documentat)
 
 
 
@@ -442,7 +442,7 @@ De vegades l'origen de les dades pot ser simplement sospitós: realment els acad
 Veure també:
 
 * [L'origen de les dades no està documentat](#l-origen-de-les-dades-no-està-documentat)
-* [Les dades són d'una precisió irreal](#les-dades-són-d-una-precisio-irreal)
+* [Les dades són d'una precisió irreal](#les-dades-són-duna-precisio-irreal)
 * [És massa bonic per ser veritat](#és-massa-bonic-per-ser-veritat)
 
 
@@ -455,7 +455,6 @@ Aquesta mena d’errors atípics poden arruïnar dramàticament les estadístiqu
 Un benefici addicional que comporta la detecció de valors atípics és que acostumen a ser una bona manera de trobar grans titulars. Si realment hi hagués un país que triga 5.000 vegades més a enviar un missatge per internet, seria una gran història.
 
 
-
 ### Un índex emmascara variacions subjacents
 
 Els analistes que volen estudiar tendències generen amb freqüència índexs amb diversos valors per monitoritzar el seu progrés. Utilitzar-los no és intrínsecament incorrecte, però cal ser cautelós amb els índexs que associen mesures dispars.
@@ -465,19 +464,18 @@ Per exemple, l'[Índex de desigualtat de gènere de les Nacions Unides](http://h
 
 ### Hi ha p-hacking als resultats 
 
-P-hacking significa l’alteració de les dades de manera intencionada, canviant una anàlisi estadística, o reportant els resultats selectivament amb l'objectiu d’obtenir conclusions significatives. Aquesta pràctica inclou, entre d’altres, deixar de recollir dades una vegada s'ha assolit un resultat significatiu, obviar observacions, o realitzar moltes anàlisis però publicar només aquelles que donen resultats significatius. Hi ha bons [estudis](http://fivethirtyeight.com/features/science-isnt-broken)que tracten aquesta qüestió.
+P-hacking significa l’alteració de les dades de manera intencionada, canviant una anàlisi estadística, o reportant els resultats selectivament amb l'objectiu d’obtenir conclusions significatives. Aquesta pràctica inclou, entre d’altres, deixar de recollir dades una vegada s'ha assolit un resultat significatiu, obviar observacions, o realitzar moltes anàlisis però publicar només aquelles que donen resultats significatius. Hi ha bons [estudis](http://fivethirtyeight.com/features/science-isnt-broken) que tracten aquesta qüestió.
 
 En cas de voler publicar els resultats d'un estudi, cal comprendre què són els «valors p», què signifiquen i després decidir demanera argumentada si els resultats tenen valor. Es publiquen moltes estudis brossa perquè els periodistes no entenen què són els «valors p».
 
 Veure també
 
-* [El marge d'error és massa ampli](#el-marge-d-error-és-massa-ampli)
+* [El marge d'error és massa ampli](#el-marge-derror-és-massa-ampli)
 
 
 ### La llei de Benford falla
 
-La [llei Benford] (https://en.wikipedia.org/wiki/Benford's_law) és una teoria segons la qual els dígits menors (1, 2, 3...) apareixen molt més sovint que dígits majors (7, 8, 9). En teoria, la Llei de Bendord es pot utilitzar per detectar anomalies en pràctiques comptables o resultats electorals. A la pràctica, però, no és tan fàcil d’aplicar. Si hi ha sospites que un dataset s'ha creat o modificat amb intencions fraudulentes, la llei de Benford és un molt bon primer test, però sempre caldrà que un expert en verifiqui els resultats abans de concloure que han estat manipulats.
-
+La [llei Benford](https://en.wikipedia.org/wiki/Benford's_law) és una teoria segons la qual els dígits menors (1, 2, 3...) apareixen molt més sovint que dígits majors (7, 8, 9). En teoria, la Llei de Bendord es pot utilitzar per detectar anomalies en pràctiques comptables o resultats electorals. A la pràctica, però, no és tan fàcil d’aplicar. Si hi ha sospites que un dataset s'ha creat o modificat amb intencions fraudulentes, la llei de Benford és un molt bon primer test, però sempre caldrà que un expert en verifiqui els resultats abans de concloure que han estat manipulats.
 
 
 ### És massa bonic per ser veritat
@@ -492,13 +490,13 @@ Alerta amb les dades que ens pretenen mostrar quelcom que no és pot conèixer. 
 
 De vegades les dades presenten el nivell de detall correcte (ni massa [genèric](#les-dades-són-massa-bastes) ni massa [específic](#les-dades-són-massa-granulars), però s'han agregat en agrupacions que no són les desitjades. Un exemple clàssic són les dades agrupades per codi postal que preferiries tenir per barris o districtes. En molts casos, és un problema impossible de resoldre si no es disposa d’accés a les dades específiques, però, en canvi, de vegades les dades es poden separar proporcionalment entre els grups.
 
-Aquesta opció cal executar-la amb cura, entenent [el marge d'error](#el-marge-d-error-és-massa-ampli) que es pot introduir durant el procés. Si les dades es troben agregades en grups erronis, demana al programador o a la font si és possible reagrupar-les d’una altra manera.
+Aquesta opció cal executar-la amb cura, entenent [el marge d'error](#el-marge-derror-és-massa-ampli) que es pot introduir durant el procés. Si les dades es troben agregades en grups erronis, demana al programador o a la font si és possible reagrupar-les d’una altra manera.
 
 Veure també:
 
 * [Les dades són massa bastes](#les-dades-són-massa-bastes)
 * [Les dades són massa granulars](#les-dades-són-massa-granulars)
-* [El marge d'error és massa ampli](#el-marge-d-error-és-massa-ampli)
+* [El marge d'error és massa ampli](#el-marge-derror-és-massa-ampli)
 
 
 ### Les dades es troben en documents escanejats
