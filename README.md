@@ -46,34 +46,34 @@ Aquest article té llicència [Creative Commons Attribution-NonCommercial 4.0 In
 * [El text està codificat](#el-text-està-codificat)
 * [Els espais al final de la línia estan mal codificats](#els-espais-al-final-de-la-línia-estan-mal-codificats)
 * [Les dades estan en PDF](#les-dades-estan-en-PDF)
-* [Les dades són massa granualrs](#les-dades-son-massa-granulars)
-* [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduides-per-humans)
+* [Les dades són massa granualrs](#les-dades-són-massa-granulars)
+* [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduïdes-per-humans)
 * [Les dades estan barrejades amb formats i anotacions](#les-dades-estan-barrejades-amb-formats-i-anotacions)
 * [Les agregacions es calculen amb valors que falten](#les-agregacions-es-calculen-amb-valors-que-falten)
-* [La mostra no és aleatòria](#la-mostra-no-es-aleatoria)
-* [El marge d'error és massa ampli](#el-marge-d-error-es-massa-ampli)
+* [La mostra no és aleatòria](#la-mostra-no-es-aleatòria)
+* [El marge d'error és massa ampli](#el-marge-d-error-és-massa-ampli)
 * [Es desconeix el marge d'error](#es-desconeix-el-marge-d-error)
-* [La mostra està esbiaixada](#la-mostra-esta-esbiaixada)
+* [La mostra està esbiaixada](#la-mostra-està-esbiaixada)
 * [Les dades s'han editat manualment](#les-dades-s-han-editat-manualment)
-* [La inflació distorsiona les dades](#la-inflacio-distorsiona-les-dades)
+* [La inflació distorsiona les dades](#la-inflació-distorsiona-les-dades)
 * [Variacions naturals/de temporada distorsionen dades](#variacions-naturalsde-temporada-distorsionen-les-dades)
 * [El marc temporal ha estat manipulat](#el-marc-temporal-ha-estat-manipulat)
-* [El marc de referència ha estat manipulat](#el-marc-de-referencia-ha-estat-manipulat)
+* [El marc de referència ha estat manipulat](#el-marc-de-referència-ha-estat-manipulat)
 
 ## Problemes que requereixen de l'ajuda d'un expert per resoldre'ls
 
-* [L'autor no és de confiança](#l-autor-no-es-de-confiança)
+* [L'autor no és de confiança](#l-autor-no-és-de-confiança)
 * [El procés de captura és opac](#el-proces-de-captura-es-opac)
-* [Les dades són d'una precisió irreal](#les-dades-son-d-una-precisio-irreal)
+* [Les dades són d'una precisió irreal](#les-dades-són-d-una-precisio-irreal)
 * [Hi ha valors atípics inexplicables](#hi-ha-valors-atipics-inexplicables)
-* [Un índex emmascara variacions subjacents](#un-index-emmascara-variacions-subjacents)
+* [Un índex emmascara variacions subjacents](#un-índex-emmascara-variacions-subjacents)
 * [Hi ha p-hacking als resultats](#hi-ha-p-hacking-als-resultats)
 * [La llei de Benford falla](#la-llei-de-benford-falla)
-* [És massa bonic per ser veritat](#es-massa-bonic-per-ser-veritat)
+* [És massa bonic per ser veritat](#és-massa-bonic-per-ser-veritat)
 
 ## Problemes que un programador pot ajudar a resoldre
 
-* [Les dades s'han agrupat en categories o geografies errònies](#les-dades-s-han-agrupat-en-categories-o-geografies-erronies)
+* [Les dades s'han agrupat en categories o geografies errònies](#les-dades-s-han-agrupat-en-categories-o-geografies-errònies)
 * [Les dades es troben en documents escanejats](#les-dades-es-troben-en-documents-escanejats)
 
 
@@ -96,7 +96,7 @@ Caldria tenir la mateixa precaució amb altres valors no numèrics on el 0 pot e
 Veure també:
 
 * [Valors sospitosos](#valors-sospitosos)
-* [El full de càlcul té les dates 1900, 1904, 1969 o 1970](#el-full-de-calcul-te-les-dates-1900-1904-1969-o-1970)
+* [El full de càlcul té les dates 1900, 1904, 1969 o 1970](#el-full-de-càlcul-té-les-dates-1900-1904-1969-o-1970)
 
 ### Manquen dades que hi haurien de ser
 
@@ -111,7 +111,7 @@ Si una mateixa fila apareix al teu dataset més d'una vegada, hauries de saber e
 
 Els errors tipogràfics són un dels indicadors més clars per saber si les dades s'han recollit a mà. No et fixis només en els noms propis, que és un dels camps més difícils de veure. En lloc d’això, cerca inconsistències en els camps amb noms d'estats o ciutats («Los Angelos» és un error comú). Si trobes aquesta mena d’errades, pots estar bastant segur que les dades han sigut recollides o editades a mà i aquesta és una raó suficient per ser escèptics. Les dades recollides manualment tendeixen a contenir errors. Això no significa que no les puguis utilitzar però sí que hauries de corregir-los o tenir-los en compte com a errors en el teu article.
 
-L'eina [OpenRefine's](http://openrefine.org/)  per [agrupar textos](https://github.com/OpenRefine/OpenRefine/wiki/Clustering) pot ajudar en el procés de correcció, suggerint coincidències entre valors inconsistents en una columna (per exemple relacionant `Los Angelos` amb `Los Angeles`).  Assegura't de documentar [documentar els canvis que facis](https://github.com/OpenRefine/OpenRefine/wiki/Exporters) de manera que puguis garantir [l'origen de les dades](#l-origen-de-les-dades-no-esta-documentat]
+L'eina [OpenRefine's](http://openrefine.org/)  per [agrupar textos](https://github.com/OpenRefine/OpenRefine/wiki/Clustering) pot ajudar en el procés de correcció, suggerint coincidències entre valors inconsistents en una columna (per exemple relacionant `Los Angelos` amb `Los Angeles`).  Assegura't de documentar [documentar els canvis que facis](https://github.com/OpenRefine/OpenRefine/wiki/Exporters) de manera que puguis garantir [l'origen de les dades](#l-origen-de-les-dades-no-està-documentat)
 
 Veure també:
 
@@ -124,7 +124,7 @@ Les teves dades inclouen noms de l'Orient Mitjà o asiàtics? Estàs segur que e
 
 Veure també:
 
-* [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduides-per-humans)
+* [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduïdes-per-humans)
 
 
 ### Formats de dates inconsistents 
@@ -138,8 +138,8 @@ Si la primera va ser escrita per un europeu i la segona per un nord-americà, [a
 
 Veure també:
 
-* [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduides-per-humans)
-* [L'origen de les dades no està documentat](#l-origen-de-les-dades-no-esta-documentat)
+* [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduïdes-per-humans)
+* [L'origen de les dades no està documentat](#l-origen-de-les-dades-no-està-documentat)
 
 
 ### Els formats dels decimals són inconsistents
@@ -158,9 +158,9 @@ Ni`pes` ni `cost` aporten cap informació sobre les unitats de mesura. No vulgui
 
 Veure també:
 
-* [Els noms dels camps són ambigus](#els-noms-dels-camps-son-ambigus)
-* [La inflació distorsiona les dades](#la-inflacio-distorsiona-les-dades)
-* [Els símbols monetaris són insuficients](#els-simbols-monetaris-son-insuficients)
+* [Els noms dels camps són ambigus](#els-noms-dels-camps-són-ambigus)
+* [La inflació distorsiona les dades](#la-inflació-distorsiona-les-dades)
+* [Els símbols monetaris són insuficients](#els-símbols-monetaris-són-insuficients)
 
  
  ### Els símbols monetaris són insuficients
@@ -224,9 +224,9 @@ Cadascun d'aquests nombres dóna indicis de possibles errors, ja siguin entrats 
 
 Veure també:
 
-* [El full de càlcul té 65.536 files](#el-full-de-calcul-te-65.536-files)
-* [El full de càlcul té 255 columnes](#el-full-de-calcul-te-255-columnes)
-* [El full de càlcul té les dates 1900, 1904, 1969 o 1970](#el-full-de-calcul-te-les-dates-1900-1904-1969-o-1970)
+* [El full de càlcul té 65.536 files](#el-full-de-calcul-té-65.536-files)
+* [El full de càlcul té 255 columnes](#el-full-de-calcul-té-255-columnes)
+* [El full de càlcul té les dates 1900, 1904, 1969 o 1970](#el-full-de-càlcul-té-les-dates-1900-1904-1969-o-1970)
 
 
 ### Les dades són massa bastes
@@ -239,8 +239,8 @@ El que no has de fer mai és dividir una dada anual entre 12 i anomenar-la «mit
 
 Veure també:
 
-* [Les dades són massa granuals](#les-dades-son-massa-granuals)
-* [Les dades s'han agrupat en categories o geografies errònies](#les-dades-s-han-agrupat-en-categories-o-geografies-erronies)
+* [Les dades són massa granuals](#les-dades-són-massa-granuals)
+* [Les dades s'han agrupat en categories o geografies errònies](#les-dades-s-han-agrupat-en-categories-o-geografies-errònies)
 
 
 ### Els totals difereixen dels globals publicats
@@ -309,7 +309,7 @@ Veure també
 Les dades poden agregar-se utilitzant taules dinàmiques d'Excel o Google Docs, utilitzant una base de dades SQL o amb un codi personalitzat. Les taules dinàmiques són una gran eina, però tenen els seus límits. Per a volums excepcionalment grans o per agregar dades en grups inusuals, hauries de preguntar a un programador, ells poden trobar una solució que sigui senzilla i fàcil de verificar i reutilitzar.
 
 Veure també 
-* [Les dades són massa bastes](#les-dades-son-massa-bastes)
+* [Les dades són massa bastes](#les-dades-són-massa-bastes)
 * [Data are aggregated to the wrong categories or geographies](#data-are-aggregated-to-the-wrong-categories-or-geographies).
 
 
@@ -340,7 +340,7 @@ Un error de mostreig no aleatori succeeix quan una enquesta o dataset no represe
 
 Veure també
 
-* [La mostra està esbiaixada](#la-mostra-esta-esbiaixada)
+* [La mostra està esbiaixada](#la-mostra-està-esbiaixada)
 
 
 ### El marge d'error és massa ampli
@@ -369,7 +369,7 @@ Com quan la mostra [no es aleatòria](#(#la-mostra-no-es-aleatoria), una mostra 
 
 Veure també:
 
-* [La mostra no és aleatòria](la-mostra-no-es-aleatoria)
+* [La mostra no és aleatòria](la-mostra-no-és-aleatoria)
 
 
 ### Les dades s'han editat manualment
@@ -381,8 +381,8 @@ Aquests problemes amb l’edició manual és una de les raons per les quals haur
 
 Veure també:
 
-* [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduides-per-humans)
-* [L'origen de les dades no està documentat](#l-origen-de-les-dades-no-esta-documentat)
+* [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduïdes-per-humans)
+* [L'origen de les dades no està documentat](#l-origen-de-les-dades-no-està-documentat)
 
 
 
@@ -400,7 +400,7 @@ Molts tipus de dades fluctuen naturalment per raó d’algunes forces subjacents
 
 Veure també:
 
-* [La inflació distorsiona les dades](#la-inflacio-distorsiona-les-dades)
+* [La inflació distorsiona les dades](#la-inflació-distorsiona-les-dades)
 
 
 ## El marc temporal ha estat manipulat
@@ -411,7 +411,7 @@ Si les dades que tens cobreixen un marc temporal limitat, evita començar els c�
 
 Veure també:
 
-* [El marc de referència ha estat manipulat](#el-marc-de-referencia-ha-estat-manipulat)
+* [El marc de referència ha estat manipulat](#el-marc-de-referència-ha-estat-manipulat)
 
 
 ## El marc de referència ha estat manipulat
@@ -435,15 +435,15 @@ De vegades les úniques dades que tenim provenen d'una font de la qual preferiri
 
 ### El procés de captura és opac
 
-És molt senzill que s'introdueixin falses suposicions, errors o grans falsedats en el procés de recol·lecció de dades. Per aquesta raó, és important que el mètode utilitzat sigui transparent. Serà difícil esbrinar exactament com es van recollir les dades però, tanmateix, existeixen elements que funcionen com a indicadors de problemes. Per exemple, quan les xifres incloses [són d'una precisió irreal](#les-dades-son-d-una-precisio-irreal) o quan les dades [son massa bones per ser veritat](#es-massa-bonic-per-ser-veritat)
+És molt senzill que s'introdueixin falses suposicions, errors o grans falsedats en el procés de recol·lecció de dades. Per aquesta raó, és important que el mètode utilitzat sigui transparent. Serà difícil esbrinar exactament com es van recollir les dades però, tanmateix, existeixen elements que funcionen com a indicadors de problemes. Per exemple, quan les xifres incloses [són d'una precisió irreal](#les-dades-són-d-una-precisio-irreal) o quan les dades [són massa bones per ser veritat](#és-massa-bonic-per-ser-veritat)
 
-De vegades l'origen de les dades pot ser simplement sospitós: realment els acadèmics x i y van entrevistar 50 membres actius de les bandes de la zona sud de Chicago? Si la manera que les dades van ser recol·lectades sembla qüestionable i la font no pot oferir [proves fefaents del seu origen](#l-origen-de-les-dades-no-esta-documentat), caldria verificar sempre amb un altre expert per veure si realment és possible que les dades s’hagin recollit de la manera que es descriu.
+De vegades l'origen de les dades pot ser simplement sospitós: realment els acadèmics x i y van entrevistar 50 membres actius de les bandes de la zona sud de Chicago? Si la manera que les dades van ser recol·lectades sembla qüestionable i la font no pot oferir [proves fefaents del seu origen](#l-origen-de-les-dades-no-està-documentat), caldria verificar sempre amb un altre expert per veure si realment és possible que les dades s’hagin recollit de la manera que es descriu.
 
 Veure també:
 
-* [L'origen de les dades no està documentat](#l-origen-de-les-dades-no-esta-documentat)
-* [Les dades són d'una precisió irreal](#les-dades-son-d-una-precisio-irreal)
-* [És massa bonic per ser veritat](#es-massa-bonic-per-ser-veritat)
+* [L'origen de les dades no està documentat](#l-origen-de-les-dades-no-està-documentat)
+* [Les dades són d'una precisió irreal](#les-dades-són-d-una-precisio-irreal)
+* [És massa bonic per ser veritat](#és-massa-bonic-per-ser-veritat)
 
 
 ### Hi ha valors atípics inexplicables
@@ -471,7 +471,7 @@ En cas de voler publicar els resultats d'un estudi, cal comprendre què són els
 
 Veure també
 
-* [El marge d'error és massa ampli](#el-marge-d-error-es-massa-ampli)
+* [El marge d'error és massa ampli](#el-marge-d-error-és-massa-ampli)
 
 
 ### La llei de Benford falla
@@ -490,15 +490,15 @@ Alerta amb les dades que ens pretenen mostrar quelcom que no és pot conèixer. 
 
 ### Les dades s'han agrupat en categories o geografies errònies
 
-De vegades les dades presenten el nivell de detall correcte (ni massa [genèric](#les-dades-son-massa-bastes) ni massa [específic](#les-dades-son-massa-granulars), però s'han agregat en agrupacions que no són les desitjades. Un exemple clàssic són les dades agrupades per codi postal que preferiries tenir per barris o districtes. En molts casos, és un problema impossible de resoldre si no es disposa d’accés a les dades específiques, però, en canvi, de vegades les dades es poden separar proporcionalment entre els grups.
+De vegades les dades presenten el nivell de detall correcte (ni massa [genèric](#les-dades-són-massa-bastes) ni massa [específic](#les-dades-són-massa-granulars), però s'han agregat en agrupacions que no són les desitjades. Un exemple clàssic són les dades agrupades per codi postal que preferiries tenir per barris o districtes. En molts casos, és un problema impossible de resoldre si no es disposa d’accés a les dades específiques, però, en canvi, de vegades les dades es poden separar proporcionalment entre els grups.
 
-Aquesta opció cal executar-la amb cura, entenent [el marge d'error](#el-marge-d-error-es-massa-ampli) que es pot introduir durant el procés. Si les dades es troben agregades en grups erronis, demana al programador o a la font si és possible reagrupar-les d’una altra manera.
+Aquesta opció cal executar-la amb cura, entenent [el marge d'error](#el-marge-d-error-és-massa-ampli) que es pot introduir durant el procés. Si les dades es troben agregades en grups erronis, demana al programador o a la font si és possible reagrupar-les d’una altra manera.
 
 Veure també:
 
-* [Les dades són massa bastes](#les-dades-son-massa-bastes)
-* [Les dades són massa granualrs](#les-dades-son-massa-granulars)
-* [El marge d'error és massa ampli](#el-marge-d-error-es-massa-ampli)
+* [Les dades són massa bastes](#les-dades-són-massa-bastes)
+* [Les dades són massa granulars](#les-dades-són-massa-granulars)
+* [El marge d'error és massa ampli](#el-marge-d-error-és-massa-ampli)
 
 
 ### Les dades es troben en documents escanejats
