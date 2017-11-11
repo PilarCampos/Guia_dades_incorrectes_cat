@@ -8,14 +8,16 @@ La majoria d'aquests problemes tenen solució. Dels que no, podem distingir entr
 
 No es pot revisar cada dataset buscant tots aquests problemes. I si es fes, possiblement s'acabaria sense publicar res. Tot i així, familiaritzant-se amb aquestes incidències es tenen més opcions d'identificar els problemes abans de comentre un error. 
 
-Per dubtes relacionats amb la guia, contacteu amb l'autor [Chris](mailto:c@qz.com) o llegiu [l'original](https://github.com/Quartz/bad-data-guide)
+Per dubtes relacionats amb la guia, contacteu amb l'autor [Chris](mailto:c@qz.com) o llegiu [l'original](https://github.com/Quartz/bad-data-guide).
+
 Per dubtes o comentaris relacionats amb la traducció, contacteu amb [Pilar](mailto:campospil@gmail.com). S'ha treballat amb la versió del github de 09/11/2017.
+
 Correcció de la traducció per [Proofeditingasesores](http://www.proofeditingasesores.com/)
 
 Aquest article té llicència [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
-# Sumari
 
+# Sumari
 
 ## Aspectes que hauria de resoldre la font d'informació
 
@@ -46,7 +48,7 @@ Aquest article té llicència [Creative Commons Attribution-NonCommercial 4.0 In
 * [El text està codificat](#el-text-està-codificat)
 * [Els espais al final de la línia estan mal codificats](#els-espais-al-final-de-la-línia-estan-mal-codificats)
 * [Les dades estan en PDF](#les-dades-estan-en-pdf)
-* [Les dades són massa granualrs](#les-dades-són-massa-granulars)
+* [Les dades són massa granulars](#les-dades-són-massa-granulars)
 * [Les dades han sigut introduïdes per humans](#les-dades-han-sigut-introduïdes-per-humans)
 * [Les dades estan barrejades amb formats i anotacions](#les-dades-estan-barrejades-amb-formats-i-anotacions)
 * [Les agregacions es calculen amb valors que falten](#les-agregacions-es-calculen-amb-valors-que-falten)
@@ -224,7 +226,7 @@ Cadascun d'aquests nombres dóna indicis de possibles errors, ja siguin entrats 
 
 Veure també:
 
-* [El full de càlcul té 65.536 files](#el-full-de-calcul-té-65.536-files)
+* [El full de càlcul té 65.536 files](#el-full-de-calcul-té-65536-files)
 * [El full de càlcul té 255 columnes](#el-full-de-calcul-té-255-columnes)
 * [El full de càlcul té les dates 1900, 1904, 1969 o 1970](#el-full-de-càlcul-té-les-dates-1900-1904-1969-o-1970)
 
@@ -290,7 +292,7 @@ En la gran majoria de casos, el teu editor de textos o full de càlcul detectar�
 
 Els arxius amb text i dades, com és el cas dels .csv, utilitzen caràcters invisibles per representar una nova línia. Windows, Mac i Linux han tingut un desacord històric sobre quins haurien de ser aquests caràcters. Intentar obrir un fitxer en un programa guardat en un altre sistema operatiu provoca que l’Excel o altres aplicacions puguin fallar a l'hora d’identificar aquests salts de línia.
 
-Normalment, es resol fàcilment obrint el fitxer en un editor de text genèric i guardant-lo a continuació. Si l'arxiu és excepcionalment gran hauries de considerar utilitzar una eina amb línia de comandaments o buscar l’ajuda d'un programador. Pots llegir més sobre aquesta qüestió aquí: [aquí](https://nicercode.github.io/blog/2013-04-30-excel-and-line-endings/).
+Normalment, es resol fàcilment obrint el fitxer en un editor de text genèric i guardant-lo a continuació. Si l'arxiu és excepcionalment gran hauries de considerar utilitzar una eina amb línia de comandaments o buscar l’ajuda d'un programador. Pots llegir més sobre aquesta qüestió [aquí](https://nicercode.github.io/blog/2013-04-30-excel-and-line-endings/).
 
 
 ### Les dades estan en PDF
@@ -441,7 +443,7 @@ De vegades l'origen de les dades pot ser simplement sospitós: realment els acad
 
 Veure també:
 
-* [L'origen de les dades no està documentat](#l-origen-de-les-dades-no-està-documentat)
+* [L'origen de les dades no està documentat](#lorigen-de-les-dades-no-està-documentat)
 * [Les dades són d'una precisió irreal](#les-dades-són-duna-precisio-irreal)
 * [És massa bonic per ser veritat](#és-massa-bonic-per-ser-veritat)
 
