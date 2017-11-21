@@ -22,7 +22,7 @@ Aquest article té llicència [Creative Commons Attribution-NonCommercial 4.0 In
 ## Aspectes que hauria de resoldre la font d'informació
 
 * [Falten dades](#falten-dades)
-* [Les dades en blanc es reemplacen per ](#les-dades-en-blanc-es-reemplacen-per-zeros)
+* [Les dades en blanc es reemplacen per zeros](#les-dades-en-blanc-es-reemplacen-per-zeros)
 * [Manquen dades que hi haurien de ser](#manquen-dades-que-hi-haurien-de-ser)
 * [Files o valors duplicats](#files-o-valors-duplicats)
 * [La ortografia és inconsistent](#la-ortografia-és-inconsistent)
